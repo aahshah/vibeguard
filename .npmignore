@@ -1,0 +1,5 @@
+test/
+.github/
+.git/
+*.md
+!README.md

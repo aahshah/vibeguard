@@ -1,0 +1,35 @@
+{
+  "name": "vibeguard",
+  "version": "0.1.0",
+  "description": "Security scanner for AI-generated code. Catches what traditional scanners miss — hardcoded secrets, dangerous defaults, exposed keys, and more.",
+  "main": "src/index.js",
+  "bin": {
+    "vibeguard": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "security",
+    "vibe-coding",
+    "ai-code",
+    "scanner",
+    "vulnerability",
+    "cli",
+    "vibeguard",
+    "sast",
+    "secrets",
+    "ai-security"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "src/**/*",
+    "README.md",
+    "LICENSE"
+  ]
+}
